@@ -43,6 +43,10 @@ body {
     justify-content: space-around;
     background-color: white;
 }
+.random.info {
+    font-weight: 800;
+    font-size: large;
+}
 .container .image {
     display: flex;
 }
@@ -57,13 +61,15 @@ body {
 
 .inner {
     display: flex;
-    background-color: blue ;
+    background-color: rgb(126, 126, 223) ;
     color: white;
     border-radius: 10px;
     height: 150px;
     flex-grow: 1;   
     align-items: center;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
