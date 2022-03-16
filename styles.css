@@ -56,7 +56,9 @@ body {
 .container.three {
     background-color: #E5E7EB;
 }
-
+.container .title {
+    font-size: 48px;
+}
 .container.four {
     background-color: white;    
 }
