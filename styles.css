@@ -5,13 +5,15 @@ body {
     height: 100vh;
     padding: 0 15%;
     background-color: black;
+  
 }
 .content {
     display: flex;
     flex-direction: column;
     flex:1;
-    border: 2px sold slateblue;
+   
     justify-content: center;
+    
 }
 .header {
     display: flex;
@@ -29,6 +31,7 @@ body {
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 50px;
 }
 
 .container.one {
@@ -49,10 +52,23 @@ body {
 }
 
 .container.four {
+    background-color: white;    
+}
+
+.inner {
     display: flex;
-    background-color: white;
+    background-color: blue ;
+    color: white;
+    border-radius: 10px;
+    height: 150px;
+    flex-grow: 1;   
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .footer {
     text-align: center;
+    background-color: #1f2937;
+    color: white;
 }
