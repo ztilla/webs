@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     height: 100vh;
     padding: 0 15%;
+    background-color: black;
 }
 .content {
     display: flex;
@@ -14,7 +15,8 @@ body {
 }
 .header {
     display: flex;
-    border: 2px solid red;
+   background-color: #1f2937;
+   color: white;
     justify-content: space-between;
 }
 .header div {
@@ -23,22 +25,32 @@ body {
 
 .container {
     display: flex;
-    border: 2px solid blue;
+   
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
 }
 
+.container.one {
+    background-color: #1f2937;
+   color: white;
+}
 .container.two {
     flex-direction: column;
     justify-content: space-around;
+    background-color: white;
 }
 .container .image {
     display: flex;
 }
+
+.container.three {
+    background-color: #E5E7EB;
 }
+
 .container.four {
     display: flex;
+    background-color: white;
 }
 
 .footer {
