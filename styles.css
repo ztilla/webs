@@ -1,0 +1,46 @@
+body {
+   
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 15%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    border: 2px sold slateblue;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-between;
+}
+.header div {
+    display: flex;   
+}
+
+.container {
+    display: flex;
+    border: 2px solid blue;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container.two {
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container .image {
+    display: flex;
+}
+}
+.container.four {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+}
